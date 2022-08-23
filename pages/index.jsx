@@ -1,6 +1,7 @@
 import { NFTCard } from "./nftCard"
 import { useState } from 'react'
 
+
 const Home = () => {
  const [wallet, setWalletAddress] = useState("");
  const [collection, setCollectionAddress] = useState("");
